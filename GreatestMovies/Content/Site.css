@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color:black
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,4 +22,26 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+.backgroundActor {
+    background-image: url('../Images/oscars.jpg');
+    padding-top: 200px;
+    text-align: center;
+}
+#theNames {
+    color:white;
+    vertical-align:middle;
+    font-family: 'Noto Sans', sans-serif;
+}
+#theYears {
+    color:grey;
+    font-family: 'Noto Sans', sans-serif;
+    font
+}
+#title {
+    text-align:center;
+    color:grey
+}
+#actionLinks {
+    text-align:center;
 }

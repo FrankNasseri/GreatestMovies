@@ -176,6 +176,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\88thnominations.jpg" />
+    <Content Include="Images\Denzel-Washington-CelebHealthy_com.jpg" />
+    <Content Include="Images\oscars-1.jpg" />
+    <Content Include="Images\oscars-banner.jpg" />
+    <Content Include="Images\oscars.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">

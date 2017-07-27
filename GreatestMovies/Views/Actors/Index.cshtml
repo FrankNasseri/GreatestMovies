@@ -4,28 +4,27 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2 id="title">The Nominations</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+
 <div class="row">
     @foreach (var item in Model)
     {
-        <div class="col-md-4">
-            <h1>
-                Actor's Name: @Html.DisplayFor(modelItem => item.ActorName)
-            </h1>
-            <h4>
-                This actor was born on: @Html.DisplayFor(modelItem => item.DOB)
-            </h4>
-            <h4>
-                This actor's nationality is: @Html.DisplayFor(modelItem => item.Nationality)
+        <div class="col-md-4 colBorder">
+            <div class="backgroundActor">
+            <h2 id="theNames">@Html.DisplayFor(modelItem => item.ActorName)</h2> 
+            </div>
+            <h3 id="theYears">
+                Born:</h3>
+            <h4>@Html.DisplayFor(modelItem => item.DOB)</h4>
+            <h4><b>
+                Nationality: @Html.DisplayFor(modelItem => item.Nationality)
+                </b>
             </h4>
             <h6>
                 Gender: @Html.DisplayFor(modelItem => item.Gender)
             </h6>
-            <p>
+            <p id="actionLinks">
                 @Html.ActionLink("Edit", "Edit", new { id = item.ActorID }) |
                 @Html.ActionLink("Details", "Details", new { id = item.ActorID }) |
                 @Html.ActionLink("Delete", "Delete", new { id = item.ActorID })
